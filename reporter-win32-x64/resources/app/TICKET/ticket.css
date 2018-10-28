@@ -1,0 +1,187 @@
+*
+{
+  padding: 0;
+  
+  margin: 0;
+}
+
+html
+{
+  font-family: 'Lato', sans-serif;
+  
+  background-color: #F8F9FD;
+}
+
+.head
+{
+  display: flex;
+  
+  align-items: center;
+  
+  padding: 4% 8% 4% 8%;
+  
+  -webkit-app-region: drag;
+  
+  background-color: white;
+  
+  font-size: 125%;
+}
+
+#head-close
+{
+  cursor: pointer;
+  
+  transition: all .2s ease-in;
+  
+  -webkit-app-region: no-drag;
+  
+  margin-left: auto;
+  
+  opacity: .5;
+}
+#head-close:hover
+{
+  opacity: .4;
+}
+
+.head-title
+{
+  font-weight: 700;
+}
+
+.content
+{
+  background-color: white;
+  
+  border-radius: 3%;
+  
+  width: 80%;
+  
+  margin: auto;
+  
+  margin-top: 5%;
+  
+  padding: 2%;
+  
+  padding-top: 3em;
+  
+  padding-bottom: 0;
+}
+
+.row
+{
+  display: flex;
+  
+  align-items: center;
+  
+  padding-bottom: 3em;
+  
+  font-size: 120%;
+  
+  color: gray;
+}
+
+input
+{
+  margin-left: auto;
+  
+  outline: none;
+  
+  border-width: 3px;
+  
+  border-radius: .5em;
+  
+  padding: 1% 2% 1% 2%;
+  
+  transition: all .2s ease-in;
+  
+  border-style: solid;
+  
+  border-color: gray;
+}
+input:hover
+{
+  border-color: lightgray;
+}
+input:focus
+{
+  border-color: #995AF9;
+}
+
+.transfer
+{
+  font-weight: 700;
+  
+  padding: 2% 4% 2% 4%;
+  
+  border-radius: 7px;
+  
+  background-color: #995AF9;
+  
+  transition: all .2s ease-in;
+  
+  display: inline-block;
+  
+  color: white;
+  
+  font-size: 125%;
+  
+  margin-top: 5%;
+  
+  cursor: pointer;
+}
+.transfer:hover
+{
+  opacity: .8;
+}
+
+#load
+{
+  display: none;
+}
+
+.modal
+{
+  display: none; /* Hidden by default */
+  
+  position: fixed; /* Stay in place */
+  
+  z-index: 1; /* Sit on top */
+  
+  left: 0;
+  
+  top: 0;
+  
+  width: 100%; /* Full width */
+  
+  height: 100%; /* Full height */
+  
+  overflow: auto; /* Enable scroll if needed */
+  
+  background-color: rgb(0,0,0); /* Fallback color */
+  
+  background-color: rgba(0,0,0,0.4);
+  
+  text-align: center;
+}
+
+.modal-content
+{
+  margin: 15% auto;
+  
+  padding: 3%;
+  
+  width: 30%;
+  
+  background-color: white;
+  
+  animation-name: animatetop;
+  
+  animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    
+    to {top: 0; opacity: 1}
+}

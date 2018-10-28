@@ -1,0 +1,175 @@
+*
+{
+  padding: 0;
+  
+  margin: 0;
+}
+
+html
+{
+  overflow-y: scroll;
+}
+
+#current
+{
+  font-weight: 300;
+  
+  font-size: 200%;
+  
+  margin-top: 5%;
+}
+
+#ld
+{
+  margin-top: 10%;
+  
+  display: none;
+}
+
+.loadlabel
+{
+  margin-top: 1%;
+
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.node
+{
+  display: flex;
+  
+  align-items: center;
+  
+  font-size: 120%;
+  
+  width: 100%;
+  
+  padding: 3%;
+  
+  cursor: pointer;
+}
+
+.nodeG
+{
+  display: flex;
+  
+  align-items: center;
+  
+  font-size: 120%;
+  
+  width: 100%;
+  
+  background-color: rgba(0, 0, 0, 0.1);
+  
+  padding: 3%;
+  
+  cursor: pointer;
+}
+
+.nodeName
+{
+  display: inline-flex;
+  
+  margin-left: 1%;
+}
+
+.listNode
+{
+  display: flex;
+  
+  align-items: center;
+  
+  font-size: 120%;
+  
+  width: 100%;
+  
+  padding: 3%;
+}
+
+.nodeType
+{
+  display: inline-flex;
+  
+  margin-left: 1%;
+}
+
+.nodeSvr1
+{
+  margin-left: auto;
+  
+  margin-right: 10%;
+  
+  background-color: #4CAF50;
+  
+  display: inline-flex;
+  
+  padding: 2%;
+  
+  width: 5%;
+  
+  border-radius: 15em;
+}
+.nodeSvr2
+{
+  margin-left: auto;
+  
+  margin-right: 10%;
+  
+  background-color: #FFEB3B;
+  
+  display: inline-flex;
+  
+  padding: 2%;
+  
+  width: 5%;
+  
+  border-radius: 15em;
+}
+.nodeSvr3
+{
+  margin-left: auto;
+  
+  margin-right: 10%;
+  
+  background-color: #F44336;
+  
+  display: inline-flex;
+  
+  padding: 2%;
+  
+  width: 5%;
+  
+  border-radius: 15em;
+}
+
+.new
+{
+  position: fixed;
+  
+  bottom: 0;
+  
+  margin-bottom: 2%;
+  
+  color: white;
+
+  left: 50%;
+  
+  transform: translateX(-50%);
+
+  background-color: #FFEB3B;
+
+  padding-top: .5em;
+
+  padding-bottom: .5em;
+
+  padding-left: 2em;
+
+  padding-right: 2em;
+
+  border-radius: 15em;
+
+  cursor: pointer;
+
+  transition: all .2s ease-in;
+  
+  display: none;
+}

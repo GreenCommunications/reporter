@@ -1,0 +1,12 @@
+{
+  "name": "Reporter",
+  "description": "The reporting tool for roadpatrol",
+  "version": "3.0.0",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["<all_urls>"],
+  "icons": { "16": "icon.png" }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="ticket.css" rel="stylesheet">
+    <script src="ticket.js"></script>
+  </head>
+  <body>
+    <div id="modal" class="modal">
+      <center>
+        <div class="modal-content">
+          <p id="mc"></p>
+          <div id="modal-dismiss" class="transfer">
+            DISMISS
+          </div>
+        </div>
+      </center>
+    </div>
+    
+    <div class="head">
+      <div class="head-title">
+        Transfer Funds
+      </div>
+      <img id="head-close" src="close.png">
+    </div>
+    
+    <div class="content">
+      <div class="row">
+        <p class="label">From:</p> <input id="transferFrom" type="number"><br>
+      </div>
+      
+      <div class="row">
+        <p class="label">To:</p> <input id="transferTo" type="number"><br>
+      </div>
+      
+      <div class="row">
+        <p class="label">Amount:</p> <input id="amount" type="number"><br>
+      </div>
+      
+      <div class="row">
+        <p class="label">Description:</p> <input id="description" type="text"><br>
+      </div>
+    </div>
+    
+    <center>
+      <div id="submit" class="transfer">
+        TRANSFER
+      </div>
+      <br>
+      <img src="load.gif" id="load" style="width: 5%; height: 5%; margin-top: 5%;">
+    </center>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "reporter",
+  "version": "3.0.0",
+  "description": "The Reporter Dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alex Rankin",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^12.2.0"
+  }
+}
